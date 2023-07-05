@@ -3514,6 +3514,8 @@ with pkgs;
 
   fedifetcher = callPackage ../tools/misc/fedifetcher { };
 
+  feishin = callPackage ../applications/audio/feishin { };
+
   flavours = callPackage ../applications/misc/flavours { };
 
   flirc = libsForQt5.callPackage ../applications/video/flirc {
